@@ -42,6 +42,7 @@ cd ensembl-vep-105.0
 ```python
 !ls /content/drive/Shareddrives/T4-2022/homo_sapiens_refseq/105_GRCh37/WP312.filtered.vcf.gz
 ```
+##### É necessario download do arquivo fasta para o seu drive (tamanho do arquivo Homo_sapiens_assembly19.fasta ~ 2Gb). Esse arquivo pode ser encontrado em repositórios como o do UCSC, por exemplo (https://hgdownload.soe.ucsc.edu/downloads.html).
 ### Descompactar arquivos
 ```python
 !zcat  /content/drive/Shareddrives/T4-2022/homo_sapiens_refseq/105_GRCh37/WP312.filtered.vcf.gz | head -n 180 > teste.vcf
