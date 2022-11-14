@@ -32,15 +32,15 @@ tar -zxvf 105.0.tar.gz
 cd ensembl-vep-105.0
 ./INSTALL.pl --NO_UPDATE 
 ```
-### Testar o comando
+### Comando para ver se o VEP está funcioando
 ```python
 %%bash
 cd ensembl-vep-105.0
 ./vep
 ```
-### Listar diretório para verificar se tudo esta certo
+### Listar diretório para verificar se tudo esta certo e ver se os arquivos foram criados
 ```python
-!ls /content/drive/Shareddrives/T4-2022/homo_sapiens_refseq/105_GRCh37/WP312.filtered.vcf.gz
+!ls 
 ```
 ##### É necessario download do arquivo fasta para o seu drive (tamanho do arquivo Homo_sapiens_assembly19.fasta ~ 2Gb). Esse arquivo pode ser encontrado em repositórios como o do UCSC, por exemplo (https://hgdownload.soe.ucsc.edu/downloads.html).
 ### Descompactar arquivos
