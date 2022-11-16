@@ -38,10 +38,7 @@ cd ensembl-vep-105.0
 cd ensembl-vep-105.0
 ./vep
 ```
-### Listar diretório para verificar se tudo esta certo e ver se os arquivos foram criados
-```python
-!ls 
-```
+
 ##### É necessario download do arquivo fasta para o seu drive (tamanho do arquivo Homo_sapiens_assembly19.fasta ~ 2Gb). Esse arquivo pode ser encontrado em repositórios como o do UCSC, por exemplo (https://hgdownload.soe.ucsc.edu/downloads.html).
 ### Descompactar arquivos
 ```python
@@ -54,6 +51,8 @@ comando|descrição|
 ---|---
 -i | --input_file. 
 -o | --output_file. 
+--dir_cache | representa o diretório do cache
+--fasta | indica caminho para documento fasta
 --force_overwrite | vai forçar a substituição de um arquivo existente com mesmo nome.
 --species [species]  |  Species to use [default: "human"]
 --everything  | Shortcut switch to turn on commonly used options   
