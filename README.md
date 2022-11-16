@@ -1,6 +1,9 @@
 # vep-somatico
 ## Anotação de um VCF somático utilizando vep-ensembl 105.0
 
+### Objetivo
+O objetivo desse repósitorio é mostrar o passo a passo para anotação de VCF somático com o uso do VEP-ensembl 105.0.
+
 ### Sobre o VEP
 O Ensembl Variant Effect Predictorl (VEP) é um poderoso instrumento para análise, anotação e priorização de variantes genômicas em regiões de codificação e não codificação. Ele fornece acesso a uma extensa coleção de anotações genômicas, com uma variedade de interfaces para atender a diferentes requisitos, e opções simples para configurar e estender a análise. É de código aberto, gratuito e suporta reprodutibilidade total de resultados. 
 
